@@ -11,8 +11,8 @@ public class EarlyBirdTicket extends Tickets{
     @Override
     public double calculatePrice() {
         if (super.getBasePrice() < 10 )
-        { return 0;
-
+        {
+            return 0;
         }
 
         else
